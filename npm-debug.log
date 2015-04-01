@@ -1,0 +1,291 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'locus' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'locus', null ]
+6 verbose cache add spec locus
+7 silly cache add parsed spec { raw: 'locus',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'locus',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed locus@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'locus', range: '*', hasData: false }
+12 silly mapToRegistry name locus
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/locus
+16 verbose addNameRange registry:https://registry.npmjs.org/locus not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/locus
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 15:46:57
+20 verbose request id 81a41d9ac6798eee
+21 verbose etag "CO2F3K3BZN8JGJROO0YPN7X5F"
+22 http request GET https://registry.npmjs.org/locus
+23 http 304 https://registry.npmjs.org/locus
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 31 Mar 2015 19:46:57 GMT',
+24 silly get     server: 'Apache',
+24 silly get     via: '1.1 varnish',
+24 silly get     'last-modified': 'Tue, 31 Mar 2015 19:46:57 GMT',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"CO2F3K3BZN8JGJROO0YPN7X5F"',
+24 silly get     age: '0',
+24 silly get     'x-served-by': 'cache-atl6225-ATL',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1427831217.317525,VS0,VE29',
+24 silly get     vary: 'Accept',
+24 silly get     'content-length': '0',
+24 silly get     'keep-alive': 'timeout=10, max=50',
+24 silly get     connection: 'Keep-Alive' } ]
+25 verbose etag https://registry.npmjs.org/locus from cache
+26 verbose get saving locus to /Users/anechka/.npm/registry.npmjs.org/locus/.cache.json
+27 silly addNameRange number 2 { name: 'locus', range: '*', hasData: true }
+28 silly addNameRange versions [ 'locus', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0' ] ]
+29 verbose addNamed locus@0.1.0
+30 silly addNamed semver.valid 0.1.0
+31 silly addNamed semver.validRange 0.1.0
+32 silly cache afterAdd locus@0.1.0
+33 verbose afterAdd /Users/anechka/.npm/locus/0.1.0/package/package.json not in flight; writing
+34 verbose afterAdd /Users/anechka/.npm/locus/0.1.0/package/package.json written
+35 silly install resolved [ { name: 'locus',
+35 silly install resolved     version: '0.1.0',
+35 silly install resolved     description: 'Line focuser',
+35 silly install resolved     main: 'lib/locus.js',
+35 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+35 silly install resolved     repository: { type: 'git', url: 'https://github.com/alidavut/locus.git' },
+35 silly install resolved     dependencies: { 'sync-prompt': '~0.2.2' },
+35 silly install resolved     devDependencies:
+35 silly install resolved      { matchdep: '~0.1.2',
+35 silly install resolved        grunt: '~0.4.1',
+35 silly install resolved        'grunt-contrib-coffee': '~0.7.0',
+35 silly install resolved        'grunt-contrib-watch': '~0.5.3' },
+35 silly install resolved     keywords: [ 'debugger', 'line', 'injection' ],
+35 silly install resolved     author: { name: 'Ali Davut' },
+35 silly install resolved     license: 'BSD-2-Clause',
+35 silly install resolved     bugs: { url: 'https://github.com/alidavut/locus/issues' },
+35 silly install resolved     gitHead: 'b36489eecaa1b042b0d98e0a511be6e188e6bb98',
+35 silly install resolved     homepage: 'https://github.com/alidavut/locus',
+35 silly install resolved     _id: 'locus@0.1.0',
+35 silly install resolved     _shasum: 'c4fdce6be145e19758f6789b14e2e4de38ba22e4',
+35 silly install resolved     _from: 'locus@*',
+35 silly install resolved     _npmVersion: '2.0.0-beta.0',
+35 silly install resolved     _npmUser: { name: 'alidavut', email: 'adavut@gmail.com' },
+35 silly install resolved     maintainers: [ [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'c4fdce6be145e19758f6789b14e2e4de38ba22e4',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/locus/-/locus-0.1.0.tgz' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/locus/-/locus-0.1.0.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install locus@0.1.0 into /usr/local/lib
+37 info installOne locus@0.1.0
+38 verbose installOne of locus to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/anechka/.npm/_locks/locus-9043f7cde1bc9912.lock for /usr/local/lib/node_modules/locus
+40 silly install write writing locus 0.1.0 to /usr/local/lib/node_modules/locus
+41 silly cache addNamed cb locus@0.1.0
+42 verbose unbuild lib/node_modules/locus
+43 verbose gentlyRm vacuuming /usr/local/lib/node_modules/locus
+44 verbose tar unpack /Users/anechka/.npm/locus/0.1.0/package.tgz
+45 verbose tar unpacking to /usr/local/lib/node_modules/locus
+46 verbose gentlyRm vacuuming /usr/local/lib/node_modules/locus
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry Gruntfile.coffee
+52 silly gunzTarPerm extractEntry lib/locus.js
+53 silly gunzTarPerm extractEntry src/locus.coffee
+54 info preinstall locus@0.1.0
+55 silly prepareForInstallMany adding sync-prompt@~0.2.2 from locus dependencies
+56 silly cache add args [ 'sync-prompt@~0.2.2', null ]
+57 verbose cache add spec sync-prompt@~0.2.2
+58 silly cache add parsed spec { raw: 'sync-prompt@~0.2.2',
+58 silly cache add   scope: null,
+58 silly cache add   name: 'sync-prompt',
+58 silly cache add   rawSpec: '~0.2.2',
+58 silly cache add   spec: '>=0.2.2 <0.3.0',
+58 silly cache add   type: 'range' }
+59 verbose addNamed sync-prompt@>=0.2.2 <0.3.0
+60 silly addNamed semver.valid null
+61 silly addNamed semver.validRange >=0.2.2 <0.3.0
+62 silly addNameRange { name: 'sync-prompt', range: '>=0.2.2 <0.3.0', hasData: false }
+63 silly mapToRegistry name sync-prompt
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/sync-prompt
+67 verbose addNameRange registry:https://registry.npmjs.org/sync-prompt not in flight; fetching
+68 verbose request uri https://registry.npmjs.org/sync-prompt
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 15:46:57
+71 verbose etag "6FSIOLYCAHEDHIR30XF08K41U"
+72 http request GET https://registry.npmjs.org/sync-prompt
+73 http 304 https://registry.npmjs.org/sync-prompt
+74 silly get cb [ 304,
+74 silly get   { date: 'Tue, 31 Mar 2015 19:46:57 GMT',
+74 silly get     server: 'Apache',
+74 silly get     via: '1.1 varnish',
+74 silly get     'last-modified': 'Tue, 31 Mar 2015 19:46:57 GMT',
+74 silly get     'cache-control': 'max-age=60',
+74 silly get     etag: '"6FSIOLYCAHEDHIR30XF08K41U"',
+74 silly get     age: '0',
+74 silly get     'x-served-by': 'cache-atl6227-ATL',
+74 silly get     'x-cache': 'MISS',
+74 silly get     'x-cache-hits': '0',
+74 silly get     'x-timer': 'S1427831217.527165,VS0,VE48',
+74 silly get     vary: 'Accept',
+74 silly get     'content-length': '0',
+74 silly get     'keep-alive': 'timeout=10, max=50',
+74 silly get     connection: 'Keep-Alive' } ]
+75 verbose etag https://registry.npmjs.org/sync-prompt from cache
+76 verbose get saving sync-prompt to /Users/anechka/.npm/registry.npmjs.org/sync-prompt/.cache.json
+77 silly addNameRange number 2 { name: 'sync-prompt', range: '>=0.2.2 <0.3.0', hasData: true }
+78 silly addNameRange versions [ 'sync-prompt',
+78 silly addNameRange   [ '0.0.0',
+78 silly addNameRange     '0.0.1',
+78 silly addNameRange     '0.1.0',
+78 silly addNameRange     '0.2.0',
+78 silly addNameRange     '0.2.1',
+78 silly addNameRange     '0.2.2',
+78 silly addNameRange     '0.3.1',
+78 silly addNameRange     '0.3.2',
+78 silly addNameRange     '0.3.3-beta',
+78 silly addNameRange     '0.4.0',
+78 silly addNameRange     '0.4.1',
+78 silly addNameRange     '0.4.2' ] ]
+79 verbose addNamed sync-prompt@0.2.2
+80 silly addNamed semver.valid 0.2.2
+81 silly addNamed semver.validRange 0.2.2
+82 silly cache afterAdd sync-prompt@0.2.2
+83 verbose afterAdd /Users/anechka/.npm/sync-prompt/0.2.2/package/package.json not in flight; writing
+84 verbose afterAdd /Users/anechka/.npm/sync-prompt/0.2.2/package/package.json written
+85 silly install resolved [ { name: 'sync-prompt',
+85 silly install resolved     description: 'Synchronously prompt your user for command-line input.',
+85 silly install resolved     homepage: 'https://github.com/shovon/sync-prompt',
+85 silly install resolved     keywords: [ 'command', 'line', 'io' ],
+85 silly install resolved     version: '0.2.2',
+85 silly install resolved     author:
+85 silly install resolved      { name: 'Salehen Shovon Rahman',
+85 silly install resolved        email: 'salehen.rahman@gmail.com',
+85 silly install resolved        url: 'http://shovon.github.io' },
+85 silly install resolved     scripts:
+85 silly install resolved      { test: './node_modules/mocha/bin/mocha && ./node_modules/jshint/bin/jshint .',
+85 silly install resolved        coverage: './node_modules/istanbul/lib/cli.js cover _mocha -- -u exports -R spec',
+85 silly install resolved        coveralls: './node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage',
+85 silly install resolved        install: 'node-gyp rebuild' },
+85 silly install resolved     repository:
+85 silly install resolved      { type: 'git',
+85 silly install resolved        url: 'https://github.com/shovon/sync-prompt.git' },
+85 silly install resolved     bugs: { url: 'https://github.com/shovon/sync-prompt/issues' },
+85 silly install resolved     license:
+85 silly install resolved      { type: 'MIT',
+85 silly install resolved        url: 'https://github.com/shovon/blob/master/LICENSE' },
+85 silly install resolved     main: './lib/sync-prompt',
+85 silly install resolved     devDependencies:
+85 silly install resolved      { sinon: '~1.7.3',
+85 silly install resolved        jshint: '~2.1.4',
+85 silly install resolved        mocha: '~1.12.0',
+85 silly install resolved        istanbul: '~0.1.44',
+85 silly install resolved        coveralls: '~2.3.0',
+85 silly install resolved        'mocha-lcov-reporter': '0.0.1' },
+85 silly install resolved     gypfile: true,
+85 silly install resolved     _id: 'sync-prompt@0.2.2',
+85 silly install resolved     dist:
+85 silly install resolved      { shasum: 'dc48b36e2961e87650a8600ac122ff1ca4267c2e',
+85 silly install resolved        tarball: 'http://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz' },
+85 silly install resolved     _from: 'sync-prompt@>=0.2.2 <0.3.0',
+85 silly install resolved     _npmVersion: '1.3.5',
+85 silly install resolved     _npmUser: { name: 'shovon', email: 'salehen.rahman@gmail.com' },
+85 silly install resolved     maintainers: [ [Object] ],
+85 silly install resolved     directories: {},
+85 silly install resolved     _shasum: 'dc48b36e2961e87650a8600ac122ff1ca4267c2e',
+85 silly install resolved     _resolved: 'https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz',
+85 silly install resolved     readme: 'ERROR: No README data found!' } ]
+86 info install sync-prompt@0.2.2 into /usr/local/lib/node_modules/locus
+87 info installOne sync-prompt@0.2.2
+88 verbose installOne of sync-prompt to /usr/local/lib/node_modules/locus not in flight; installing
+89 verbose lock using /Users/anechka/.npm/_locks/sync-prompt-0d771ed9c8932d09.lock for /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+90 silly install write writing sync-prompt 0.2.2 to /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+91 silly cache addNamed cb sync-prompt@0.2.2
+92 verbose unbuild lib/node_modules/locus/node_modules/sync-prompt
+93 verbose gentlyRm vacuuming /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+94 verbose tar unpack /Users/anechka/.npm/sync-prompt/0.2.2/package.tgz
+95 verbose tar unpacking to /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+96 verbose gentlyRm vacuuming /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+97 silly gunzTarPerm modes [ '755', '644' ]
+98 silly gunzTarPerm extractEntry package.json
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm extractEntry LICENSE
+102 silly gunzTarPerm extractEntry test.js
+103 silly gunzTarPerm extractEntry HISTORY.md
+104 silly gunzTarPerm extractEntry binding.gyp
+105 silly gunzTarPerm extractEntry lib/sync-prompt.js
+106 silly gunzTarPerm extractEntry src/sync_prompt.cc
+107 info preinstall sync-prompt@0.2.2
+108 silly install resolved []
+109 verbose about to build /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+110 info build /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+111 verbose linkStuff [ true,
+111 verbose linkStuff   '/usr/local/lib/node_modules',
+111 verbose linkStuff   false,
+111 verbose linkStuff   '/usr/local/lib/node_modules/locus/node_modules' ]
+112 info linkStuff sync-prompt@0.2.2
+113 verbose linkBins sync-prompt@0.2.2
+114 verbose linkMans sync-prompt@0.2.2
+115 verbose rebuildBundles sync-prompt@0.2.2
+116 info install sync-prompt@0.2.2
+117 verbose unsafe-perm in lifecycle true
+118 info sync-prompt@0.2.2 Failed to exec install script
+119 verbose unlock done using /Users/anechka/.npm/_locks/sync-prompt-0d771ed9c8932d09.lock for /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+120 verbose about to build /usr/local/lib/node_modules/locus
+121 verbose unlock done using /Users/anechka/.npm/_locks/locus-9043f7cde1bc9912.lock for /usr/local/lib/node_modules/locus
+122 verbose stack Error: sync-prompt@0.2.2 install: `node-gyp rebuild`
+122 verbose stack Exit status 1
+122 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+122 verbose stack     at EventEmitter.emit (events.js:110:17)
+122 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+122 verbose stack     at ChildProcess.emit (events.js:110:17)
+122 verbose stack     at maybeClose (child_process.js:1008:16)
+122 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+123 verbose pkgid sync-prompt@0.2.2
+124 verbose cwd /Users/anechka/dev/wdi/Knope/w03/d02/Homework/meetup_stuff
+125 error Darwin 14.1.0
+126 error argv "node" "/usr/local/bin/npm" "install" "-g" "locus"
+127 error node v0.12.0
+128 error npm  v2.5.1
+129 error code ELIFECYCLE
+130 error sync-prompt@0.2.2 install: `node-gyp rebuild`
+130 error Exit status 1
+131 error Failed at the sync-prompt@0.2.2 install script 'node-gyp rebuild'.
+131 error This is most likely a problem with the sync-prompt package,
+131 error not with npm itself.
+131 error Tell the author that this fails on your system:
+131 error     node-gyp rebuild
+131 error You can get their info via:
+131 error     npm owner ls sync-prompt
+131 error There is likely additional logging output above.
+132 verbose exit [ 1, true ]
+133 verbose unbuild lib/node_modules/locus/node_modules/sync-prompt
+134 info preuninstall sync-prompt@0.2.2
+135 info uninstall sync-prompt@0.2.2
+136 verbose unbuild rmStuff sync-prompt@0.2.2 from /usr/local/lib/node_modules
+137 verbose unbuild rmStuff in /usr/local/lib/node_modules/locus/node_modules
+138 info postuninstall sync-prompt@0.2.2
+139 verbose gentlyRm vacuuming /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+140 silly gentlyRm purging /usr/local/lib/node_modules/locus/node_modules/sync-prompt
+141 silly gentlyRm removing /usr/local/lib/node_modules/locus/node_modules
+142 silly gentlyRm quitting because other entries in /usr/local/lib/node_modules/locus
+143 verbose unbuild lib/node_modules/locus
+144 info preuninstall locus@0.1.0
+145 info uninstall locus@0.1.0
+146 verbose unbuild rmStuff locus@0.1.0 from /usr/local/lib/node_modules
+147 info postuninstall locus@0.1.0
+148 verbose gentlyRm vacuuming /usr/local/lib/node_modules/locus
+149 silly gentlyRm purging /usr/local/lib/node_modules/locus
+150 silly gentlyRm quitting because other entries in /usr/local/lib/node_modules
