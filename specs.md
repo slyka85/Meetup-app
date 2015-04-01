@@ -58,3 +58,14 @@ attendees
   - If a user did not provide admin credentials, or tries to access with a wrong password - a warning should be given to a user that he/she does not have access;
   - If a user did not provide their name and email address, the RSVP should not be successful and the user needs to input information all over again.
   - A user should not have access to admin information, therefore should be given a prompt and be logged out of the app if tries to access: The list of developers attending, or change the date or topic of the meetup or clear the RSVP list.
+
+* * *
+
+FEATURE5. ***HELP***
+
+If a user needs help or list of available commands, he/she can type
+
+```bash
+help
+```
+and get complete instructions on how to use the application.
